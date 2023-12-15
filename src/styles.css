@@ -1,0 +1,90 @@
+.Header{
+    background-color: #0f172a;
+    color: cyan;
+    font-size: 2em;
+    font-family:cursive;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.input-box{
+  padding: 0.5rem;
+  background-color: #0f172a;
+  border-radius: 10px;
+  border: none;
+  margin: 0.5rem;
+  color: #ffffff;
+}
+
+
+.input-text{
+    text-align: center;
+    padding: 0.50rem;
+}
+
+
+.input-button{   
+    padding: 0.25rem;
+    font-size: 1em;
+    border-radius: 6px;
+    border: none;
+}
+
+
+
+.showWeather{
+    width: 60%;
+    margin: 0 auto;
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #ff0000);
+    background: linear-gradient(to right, #f2fcfe, #ff0000);
+    border-radius: 25px;
+    text-align:center;
+}
+
+.showWeather {
+    width: 60%;
+    margin: 0 auto;
+    background: #ff0000;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    border-radius: 25px;
+    text-align:center;
+  
+  }
+  .weather-main {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+  }
+  
+  .weather-heading {
+    font-size: 3rem;
+    margin: 1rem;
+    color: #0f172a;
+  }
+  
+  .temp {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .weatherData {
+    display: flex;
+    align-items: center;
+    color: #0f172a;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+  }
+  
+  .weather_heading span {
+    font-size: 1.3rem;
+  }
+  
